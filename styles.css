@@ -1,0 +1,114 @@
+
+*{
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.vid video{
+position: absolute;
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+margin: 0%;
+margin-left: 0%;
+padding: 0px 0px ;
+background-color: rgb(14, 1, 1);
+
+}
+ .up{
+    background-color: black;
+    height: 100px;
+    width: 215.1vh;
+}
+nav{
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: rgb(244, 239, 239);
+    font-weight: bold;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(228, 17, 17);
+}
+.ravan
+{
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+    position:absolute;
+    left: 0px;
+    transform: translateX(50%);
+    transition: bottom 1s left 1s;
+    
+}
+
+.ram
+{
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+    position:absolute;
+    right: 250px;
+    
+    top: 390px;
+    
+        
+}
+
+.fire
+{
+   
+    height: 300px;
+    width: 500px;
+    position:absolute;
+    right: 139px;
+    left:650px;
+    top: 390px;
+    align-self: center;
+    
+        
+}
+
+.images .fire{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    
+    transition: bottom 1s left 1s;
+}
+
+.images:hover .fire{
+bottom: 40px;
+left:200%;
+}
+
+.images:hover .ram{
+left:45%;
+}
+.images:hover .ravan{
+    left:100%;
+    }
+  
+
+
